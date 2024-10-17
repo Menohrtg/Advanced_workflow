@@ -19,7 +19,7 @@ jobs:
             - name: 🍏Run an inline script
               run: |
                 Write-Host "This is the first github action"
-            - name: 🍏Run an inline multiline
+            - name: 🍏Run an inline multi-line
               run: |
                 Write-Host "Keep testing the workflow until you get the right one"
                 Write-Host " The workflow now works perfectly because you kept trying "
