@@ -26,6 +26,8 @@ jobs:
     Test:
         runs-on: windows-latest
         steps:
+            - name: checkout step
+              uses: actions/checkout@v4
             - name: run a hello script
               run: |
                 scripts\hello.ps1
