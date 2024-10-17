@@ -23,3 +23,10 @@ jobs:
               run: |
                 Write-Host "Keep testing the workflow until you get the right one"
                 Write-Host " The workflow now works perfectly because you kept trying "
+    Test:
+        runs-on: windows-latest
+        steps:
+            - name: run a hello script
+              run: |
+                scripts\hello.ps1
+                
