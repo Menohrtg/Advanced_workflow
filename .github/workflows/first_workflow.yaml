@@ -24,6 +24,7 @@ jobs:
                 Write-Host "Keep testing the workflow until you get the right one"
                 Write-Host " The workflow now works perfectly because you kept trying "
     Test:
+        needs: build
         runs-on: windows-latest
         steps:
             - name: 🍏checkout step
